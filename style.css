@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+body{
+	margin: 0;
+}
+
+.topbar{
+	height: 100px;
+	background-color: #f1f1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: papayawhip;
+}
+
+.logo{
+	margin-left: 3%;
+
+}
+
+nav{
+	margin-right: 3%;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 7px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+}
+
+.banner{
+	height: 500px;
+	background: linear-gradient(rgba(45,34,27,0.5), rgba(54,34,43,0.9), rgba(55,54,46,0.7)),url(images/yas.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white; 
+	text-transform: capitalize;
+
+
+}
+
+h3{
+	letter-spacing: 5px;
+}
+
+h4{
+	letter-spacing: 3px;
+}
+
+.cardo{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 3%;
+	margin-right: 3%;
+
+}
+
+.cardo div{
+	height: 300px;
+	flex: 1;
+	margin-right: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	text-transform: uppercase;
+	margin-top: -100px;
+}
+
+.first{
+	background: linear-gradient(rgba(95,27,14,0.89), rgba(95,27,14,0.89), rgba(95,27,14,0.89)), url(images/j.jpg);
+	
+}
+
+.second{
+	background: linear-gradient(rgba(49,67,58,0.89), rgba(49,67,58,0.89), rgba(49,67,58,0.89)), url(images/custom.jpeg);
+
+}
+
+.third{
+	background: linear-gradient(rgba(67,37,74,0.7), rgba(35,67,84,0.4), rgba(49,67,58,0.89)), url(images/yas.jpg);
+}
+
+.cardo h3{
+	color: white;
+}
+
+.cardo p{
+	padding-right: 5px;
+	color: white;
+}
+
+.cardo a{
+	color: white;
+	text-decoration: none;
+	/*border-color: white;
+	border-style: solid;
+	border-size: 1px;*/
+	border: white solid 1px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.cardo a:hover{
+	background: gray;
+	color: cyan;
+
+}
+
+.reg{
+	height: 150px;
+	background: linear-gradient(rgba(45,34,87,0.5), rgba(54,34,53,0.9), rgba(95,54,46,0.7)),url(images/custom.jpeg);
+	display: flex;
+	text-transform: capitalize;
+	align-items: center;
+	background-repeat: repeat;
+	
+}
+
+.reg h3{
+	padding-left: 20px;
+	color: white;
+	font-size: 23px;
+	font-weight: bold;
+	margin-left: 10px;
+
+	
+	
+}
